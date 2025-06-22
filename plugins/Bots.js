@@ -42,7 +42,7 @@ const handler = async (msg, { conn }) => {
   }).join("\n\n");
 
   // Construir mensaje final
-  const menu = `╭━〔 *CORTANA 2.0 BOT* 〕━⬣
+  const menu = `╭━〔 *SONIC 2.0 BOT* 〕━⬣
 │ 🤖 Total conectados: *${total}/${maxSubbots}*
 │ 🟢 Sesiones libres: *${disponibles}*
 ╰━━━━━━━━━━━━⬣
