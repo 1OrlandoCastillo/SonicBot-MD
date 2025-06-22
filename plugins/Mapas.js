@@ -27,9 +27,9 @@ const handler = async (msg, { conn }) => {
   // Lista de mapas
   const mapas = [
     "https://qu.ax/lqoyG.png",
-    "https://cdn.russellxz.click/175045dc.jpeg",
-    "https://cdn.russellxz.click/2559d309.jpeg",
-    "https://cdn.russellxz.click/b7a5b400.jpeg"
+    "https://qu.ax/yPJUJ.png",
+    "https://qu.ax/bjRxy.png",
+    "https://qu.ax/Psmsm.png"
   ];
 
   const elegido = mapas[Math.floor(Math.random() * mapas.length)];
