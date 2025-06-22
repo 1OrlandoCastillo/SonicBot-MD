@@ -19,7 +19,7 @@ const handler = async (msg, { conn }) => {
   });
 
   const menu = `
-╔⌬CORTANA 2.0 SUBBOT⌬╗
+╔⌬SONICBOT 2.0 SUBBOT⌬╗
 ║   Menú por categorías  
 ╚═─────────────═╝
 
