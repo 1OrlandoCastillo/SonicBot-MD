@@ -25,7 +25,7 @@ const handler = async (msg, { conn, text, args, usedPrefix, command }) => {
     const respuestaGPT = data.data.message;
 
     await conn.sendMessage(msg.key.remoteJid, {
-      text: `✨ *GPT-4 responde a @${userId.replace("@s.whatsapp.net", "")}:*\n\n${respuestaGPT}\n\n🔹 *Powered by Azura Ultra Subbot* 🤖`,
+      text: `✨ *GPT-4 responde a @${userId.replace("@s.whatsapp.net", "")}:*\n\n${respuestaGPT}\n\n🔹 *Powered by SonicBot-MD* 🤖`,
       mentions: [userId]
     }, { quoted: msg });
 
