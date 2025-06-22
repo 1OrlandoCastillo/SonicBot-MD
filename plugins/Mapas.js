@@ -26,7 +26,7 @@ const handler = async (msg, { conn }) => {
 
   // Lista de mapas
   const mapas = [
-    "https://cdn.russellxz.click/b55d4ed4.jpeg",
+    "https://qu.ax/lqoyG.png",
     "https://cdn.russellxz.click/175045dc.jpeg",
     "https://cdn.russellxz.click/2559d309.jpeg",
     "https://cdn.russellxz.click/b7a5b400.jpeg"
