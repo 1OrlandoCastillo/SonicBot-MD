@@ -41,7 +41,7 @@ const handler = async (msg, { conn, text, usedPrefix }) => {
 ⚙️ *Aguarda un momento mientras finalizamos la descarga.*
 
 ╭─────⟡
-│ 🤖 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 𝐁𝐎𝐓
+│ 🤖 *SONICBOT* 𝟐.𝟎 𝐁𝐎𝐓
 ╰─────⟡`
     }, { quoted: msg });
 
