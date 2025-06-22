@@ -64,7 +64,7 @@ const handler = async (msg, { conn, text, usedPrefix }) => {
 
     const caption = `
 
-✦ 𝘾𝙤𝙧𝙩𝙖𝙣𝙖 2.0 𝗦𝘂𝗯𝗯𝗼𝘁 ✦
+✦ Sonicbot 2.0 𝗦𝘂𝗯𝗯𝗼𝘁 ✦
 
 
 📀 *Info del video:*  
