@@ -40,7 +40,7 @@ const handler = async (msg, { conn, text }) => {
 
     await conn.sendMessage(msg.key.remoteJid, {
       image: { url: thumbnail },
-      caption: `╭─⭓ *𝗔𝘇𝘂𝗿𝗮 𝗨𝗹𝘁𝗿𝗮 𝗦𝘂𝗯𝗯𝗼𝘁*\n│\n├ 🎧 *Título:* ${title}\n├ 🕒 *Duración:* ${fduration}\n├ 📥 *Tamaño:* ${data.size}\n│\n└ ⏳ Descargando audio...\n╰───────────────⭓`
+      caption: `╭─⭓ *SonicBot 𝗦𝘂𝗯𝗯𝗼𝘁*\n│\n├ 🎧 *Título:* ${title}\n├ 🕒 *Duración:* ${fduration}\n├ 📥 *Tamaño:* ${data.size}\n│\n└ ⏳ Descargando audio...\n╰───────────────⭓`
     }, { quoted: msg });
 
     const tmpDir = path.join(__dirname, '../tmp');
