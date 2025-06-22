@@ -44,7 +44,7 @@ const handler = async (msg, { conn, text }) => {
 
     const captionPreview = `
 
-   ✦ 𝘾𝙤𝙧𝙩𝙖𝙣𝙖 2.0 𝗦𝘂𝗯𝗯𝗼𝘁 ✦
+   ✦ SonicBot 2.0 𝗦𝘂𝗯𝗯𝗼𝘁 ✦
 
 📀 *Info del video:*  
 ❀ 🎼 *Título:* ${title}
