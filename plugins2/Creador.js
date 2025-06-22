@@ -4,10 +4,10 @@ const handler = async (msg, { conn }) => {
 
   const messageText = `📞 *Contacto del Creador del Subbot:*
 
-Si tienes dudas, preguntas o sugerencias sobre el funcionamiento de *Azura Ultra Subbot*, puedes contactar a su creador.
+Si tienes dudas, preguntas o sugerencias sobre el funcionamiento de *SonicBot-MF Subbot*, puedes contactar a su creador.
 
-📌 *Nombre:* Russell
-📌 *Número:* +1 (516) 709-6032
+📌 *Nombre:* Orlando 
+📌 *Número:* +52 273 159 0195
 💬 *Toca el contacto para enviarle un mensaje directo.`;
 
   // Enviar contacto vCard
