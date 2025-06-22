@@ -29,8 +29,8 @@ const handler = async (msg, { conn }) => {
 🏹 ➤ ${prefix}guerr
 
 ───────────────────
-👨‍💻 *Desarrollado por:* Russell XZ  
-🤖 *Cortana 2.0 Bot — Sección Free Fire*`;
+👨‍💻 *Desarrollado por:* Orlando   
+🤖 *SONICBOT 2.0 Bot — Sección Free Fire*`;
 
     await conn.sendMessage(chatId, {
       image: { url: imgUrl },
