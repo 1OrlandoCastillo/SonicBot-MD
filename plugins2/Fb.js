@@ -27,7 +27,7 @@ const handler = async (msg, { conn, text, usedPrefix, command }) => {
       }, { quoted: msg });
     }
 
-    const message = `📺 *Resoluciones disponibles:*\n${results.map(r => `- ${r.resolution}`).join('\n')}\n\n🔥 Enviado en *720p*\n\n> 🍧 Procesado por *api.dorratz.com*\n───────\n© *Azura Ultra & Cortana Subbot*`;
+    const message = `📺 *Resoluciones disponibles:*\n${results.map(r => `- ${r.resolution}`).join('\n')}\n\n🔥 Enviado en *720p*\n\n> 🍧 Procesado por *api.dorratz.com*\n───────\n© *SonicBot-MD*`;
 
     await conn.sendMessage(msg.key.remoteJid, {
       video: { url: results[0].url },
