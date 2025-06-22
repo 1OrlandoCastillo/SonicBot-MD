@@ -10,7 +10,7 @@ const handler = async (msg, { conn }) => {
     const imgUrl = 'https://cdn.russellxz.click/8b0e4c2c.jpeg';
 
     // Texto del menú rediseñado
-    const texto = `🎮 𓆩 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 — 𝐌𝐄𝐍𝐔́ 𝐅𝐑𝐄𝐄 𝐅𝐈𝐑𝐄 𓆪
+    const texto = `🎮 𓆩 SONICBOT 𝟐.𝟎 — 𝐌𝐄𝐍𝐔́ 𝐅𝐑𝐄𝐄 𝐅𝐈𝐑𝐄 𓆪
 
 🍉 𝐌𝐀𝐏𝐀𝐒 𝐃𝐄 𝐉𝐔𝐄𝐆𝐎  
 📍 ➤ ${prefix}mapas
