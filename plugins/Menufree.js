@@ -7,7 +7,7 @@ const handler = async (msg, { conn }) => {
     await conn.sendMessage(chatId, { react: { text: "🎮", key: msg.key } });
 
     // Imagen del menú
-    const imgUrl = 'https://cdn.russellxz.click/8b0e4c2c.jpeg';
+    const imgUrl = 'https://qu.ax/ZWsMi.jpg';
 
     // Texto del menú rediseñado
     const texto = `🎮 𓆩 SONICBOT 𝟐.𝟎 — 𝐌𝐄𝐍𝐔́ 𝐅𝐑𝐄𝐄 𝐅𝐈𝐑𝐄 𓆪
