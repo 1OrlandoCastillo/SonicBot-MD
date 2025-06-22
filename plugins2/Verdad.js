@@ -13,7 +13,7 @@ const handler = async (msg, { conn }) => {
 
     await conn.sendMessage(msg.key.remoteJid, {
       image: { url: 'https://cdn.russellxz.click/dd38e79b.jpeg' },
-      caption: `𝘏𝘢𝘴 𝘦𝘴𝘤𝘰𝘨𝘪𝘥𝘰 *𝘝𝘌𝘙𝘋𝘈𝘋*\n\n╱╲❀╱╲╱╲❀╱╲╱╲❀╱╲\n◆ ${verdad}\n╲╱❀╲╱╲╱❀╲╱╲╱❀╲╱\n\n© SonicBot2.0 subbots`
+      caption: `𝘏𝘢𝘴 𝘦𝘴𝘤𝘰𝘨𝘪𝘥𝘰 *𝘝𝘌𝘙𝘋𝘈𝘋*\n\n╱╲❀╱╲╱╲❀╱╲╱╲❀╱╲\n◆ ${verdad}\n╲╱❀╲╱╲╱❀╲╱╲╱❀╲╱\n\n© SonicBot 2.0 subbots`
     }, { quoted: msg });
 
     // ✅ Reacción de éxito
