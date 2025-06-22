@@ -88,7 +88,7 @@ const handler = async (msg, { conn, text, command }) => {
 
     await conn.sendMessage(msg.key.remoteJid, {
       image: { url: thumbnail },
-      caption: `╭─🎬 *CORTANA 2.0 BOT* ─╮
+      caption: `╭─🎬 *SONIC 2.0 BOT* ─╮
 │
 │ 📌 *Título:* ${title}
 │ 👤 *Autor:* ${author?.name || 'Desconocido'}
