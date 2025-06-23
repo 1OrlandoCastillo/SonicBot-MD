@@ -129,8 +129,8 @@ const handler = async (msg, { conn, args }) => {
 
     const stickerBuf = Buffer.from(data.result.image, 'base64');
     const sticker = await writeExifImg(stickerBuf, {
-      packname: 'Cortana 2.0 Bot',
-      author: '𝙍𝙪𝙨𝙨𝙚𝙡𝙡 xz 💻'
+      packname: 'SonicBot 2.0 Bot',
+      author: 'Orlando OFF 💻'
     });
 
     await conn.sendMessage(chatId, { sticker: { url: sticker } }, { quoted: msg });
