@@ -1,6 +1,6 @@
 (async () => {
-let canalId = ["120363266665814365@newsletter"];  
-let canalNombre = ["🪼 CORTANA 2.0 BOT 🪼"]
+let canalId = ["120363411154070926@newsletter"];  
+let canalNombre = ["💥 SONICBOT-MD OFICIAL 💥"]
   function setupConnection(conn) {
   conn.sendMessage2 = async (chat, content, m, options = {}) => {
     const firstChannel = { 
