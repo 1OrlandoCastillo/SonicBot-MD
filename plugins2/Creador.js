@@ -1,46 +1,32 @@
-import fetch from 'node-fetch';
+const handler = async (msg, { conn }) => {
+  const ownerNumber = "522731260569@s.whatsapp.net"; // Número del creador
+  const ownerName = "Orlando xz 🤖"; // Nombre visible del creador
 
-let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-   await m.react('🍑');
+  const messageText = `📞 *Contacto del Creador del Subbot:*
 
-    let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
-    let name = await conn.getName(who);
-    let edtr = `@${m.sender.split('@')[0]}`;
-    let username = await conn.getName(m.sender);
+Si tienes dudas, preguntas o sugerencias sobre el funcionamiento de *SonicBot Subbot*, puedes contactar a su creador.
 
-    // VCARD
-    let list = [{
-        displayName: "Orlando-Ofc 🎩",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Orlando-ᴏғɪᴄɪᴀʟ🍭\nitem1.TEL;waid=5212731590195:521273159 0195\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: ninopina10@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/crowbot_wa\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Nicaragua;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
-    }];
+📌 *Nombre:* Orlando 
+📌 *Número:* +52 273 159 0195
+💬 *Toca el contacto para enviarle un mensaje directo.`;
 
-    await conn.sendMessage(m.chat, {
-        contacts: {
-            displayName: `${list.length} Contacto`,
-            contacts: list
-        },
-        contextInfo: {
-            externalAdReply: {
-                showAdAttribution: true,
-                title: 'һ᥆ᥣᥲ s᥆ᥡ Orlando-᥆𝖿ᥴ ᥱᥣ mᥱȷ᥆r',
-                body: 'Orlando Castillo', // <--- Cambiado aquí
-                thumbnailUrl: 'https://files.catbox.moe/wd3wwq.jpg',
-                sourceUrl: 'https://wa.me/5212731590195?text=Vengo+Del+Comando+.owner',
-                mediaType: 1,
-                renderLargerThumbnail: true
-            }
+  // Enviar contacto vCard
+  await conn.sendMessage(msg.key.remoteJid, {
+    contacts: {
+      displayName: ownerName,
+      contacts: [
+        {
+          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${ownerName}\nTEL;waid=${ownerNumber.split('@')[0]}:+${ownerNumber.split('@')[0]}\nEND:VCARD`
         }
-    }, {
-        quoted: m
-    });
+      ]
+    }
+  });
 
-    let txt = `el contacto de mi creador*`;
-
-    await conn.sendMessage(m.chat, { text: txt });
+  // Enviar texto informativo
+  await conn.sendMessage(msg.key.remoteJid, {
+    text: messageText
+  }, { quoted: msg });
 };
 
-handler.help = ['owner', 'creator'];
-handler.tags = ['main'];
-handler.command = /^(owner|creator|creador|dueño)$/i;
-
-export default handler;
+handler.command = ['creador'];
+module.exports = handler;
