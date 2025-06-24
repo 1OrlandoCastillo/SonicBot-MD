@@ -67,7 +67,7 @@ const handler = async (msg, { conn, text }) => {
       caption: infoMessage
     }, { quoted: msg });
 
-    const apiURL = `https://api.neoxr.eu/api/youtube?url=${encodeURIComponent(videoUrl)}&type=audio&quality=128kbps&apikey=russellxz`;
+    const apiURL = `https://star-void-api.vercel.app/download/youtube?url={encodeURIComponent(videoUrl)}&type=audio&quality=128kbps&apikey=russellxz`;
     const res = await axios.get(apiURL);
     const json = res.data;
 
