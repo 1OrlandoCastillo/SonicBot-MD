@@ -90,7 +90,7 @@ href="https://wa.me/50557865603?text="><img src="https://files.catbox.moe/44q2o7
 
 ## **`💛 𝘊𝘙𝘌𝘈𝘋𝘖𝘙`**
 <a
-href="https://github.com/Emanuel1273"><img src="https://github.com/Emanuel1273.png" width="130" height="130" alt="WillZek"/></a>
+https://github.com/1OrlandoCastillo"><img src="https://github.com/1OrlandoCastillo.png" width="130" height="130" alt="WillZek"/></a>
 
 </details>
 
