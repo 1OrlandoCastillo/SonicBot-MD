@@ -2,18 +2,18 @@
 
 > **`🪩 Versión Actual: 2.1.0`**
 
-## 💛 **`S O N I C - B O T`**    
+## 💛 **`C R E A D O R`**    
 
 ![Menú Principal](https://files.catbox.moe/hjl3b6.jpg)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>   
 
-<a href="https://github.com/WillZek/CrowBot-ST"><img src="https://cardivo.vercel.app/api?name=Sonic&repo=CrowBot-ST&description=Hola+Soy+SonicBot+Disfruta+del+Bot+De+WhatsApp.&image=https://cdnmega.vercel.app/media/FlRSwb6Q@gi4Rb_NxJn8alIs5ugKRnaIu1Df0qxGjGymitgBPEv0/revision/latest?cb=20200606024545&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1&instagram=SonicBot&whatsapp=50557865603&tiktok=crow_legendario_bs&pattern=leaf&colorPattern=%23eaeaea" /><a>
+<a href="https://github.com/1OrlandoCastillo"><img src="https://cardivo.vercel.app/api?name=Sonic&repo=Sonic-ST&description=Hola+Soy+SonicBot+Disfruta+del+Bot+De+WhatsApp.&image=https://cdnmega.vercel.app/media/FlRSwb6Q@gi4Rb_NxJn8alIs5ugKRnaIu1Df0qxGjGymitgBPEv0/revision/latest?cb=20200606024545&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1&instagram=SonicBot&whatsapp=50557865603&tiktok=crow_legendario_bs&pattern=leaf&colorPattern=%23eaeaea" /><a>
 
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=85&pause=2000&color=FFD200FF&chrome=true&width=1000&height=200&lines=💛+ Orlando+Lanzó;🍷La+Version+2.1.0;Disfruta+Del+Bot+🎩" alt="Typing SVG" /></a>
 
 
-<a href="#"><img title="CrowBot" src="https://img.shields.io/badge/Sonic💛 | Orlando MxM💛 | STARCORE 💛-blue?colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
+<a href="#"><img title="SonicBot" src="https://img.shields.io/badge/Sonic💛 | Orlando MxM💛 | STARCORE 💛-blue?colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
 </p>
 
 <!-- RAINBOW LINE BOT -->
@@ -86,11 +86,11 @@ href="https://wa.me/50557865603?text="><img src="https://files.catbox.moe/44q2o7
 </details>
 
 ## 🐦‍🔥 **`COLABORADORES`**
-<a href="https://github.com/WillZek"><img src="https://github.com/WillZek.png" width="100" height="100" alt="WillZek"/></a>
+<a href="https://github.com/1OrlandoCastillo"><img src="https://github.com/1OrlandoCastillo.png" width="100" height="100" alt="Orlando"/></a>
 
 ## **`💛 𝘊𝘙𝘌𝘈𝘋𝘖𝘙`**
 <a
-https://github.com/1OrlandoCastillo"><img src="https://github.com/1OrlandoCastillo.png" width="130" height="130" alt="WillZek"/></a>
+href="https://github.com/Emanuel1273"><img src="https://github.com/Emanuel1273.png" width="130" height="130" alt="WillZek"/></a>
 
 </details>
 
