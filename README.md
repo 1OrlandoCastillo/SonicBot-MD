@@ -1,89 +1,97 @@
-<h1 align="center">🪼 CORTANA 2.0 BOT 🪼</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Bienvenidos%20-%20Sonic%20ProMax%20💛&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/> 
 
-<p align="center">
-  <img src="https://cdn.russellxz.click/8d278a49.jpeg" width="600" alt="Cortana 2.0 Bot"/>
+> **`🪩 Versión Actual: 2.1.0`**
+
+## 💛 **`S O N I C - B O T`**    
+
+![Menú Principal](https://files.catbox.moe/hjl3b6.jpg)
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>   
+
+<a href="https://github.com/WillZek/CrowBot-ST"><img src="https://cardivo.vercel.app/api?name=Sonic&repo=CrowBot-ST&description=Hola+Soy+SonicBot+Disfruta+del+Bot+De+WhatsApp.&image=https://cdnmega.vercel.app/media/FlRSwb6Q@gi4Rb_NxJn8alIs5ugKRnaIu1Df0qxGjGymitgBPEv0/revision/latest?cb=20200606024545&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1&instagram=SonicBot&whatsapp=50557865603&tiktok=crow_legendario_bs&pattern=leaf&colorPattern=%23eaeaea" /><a>
+
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=85&pause=2000&color=FFD200FF&chrome=true&width=1000&height=200&lines=💛+ Orlando+Lanzó;🍷La+Version+2.1.0;Disfruta+Del+Bot+🎩" alt="Typing SVG" /></a>
+
+
+<a href="#"><img title="CrowBot" src="https://img.shields.io/badge/Sonic💛 | Orlando MxM💛 | STARCORE 💛-blue?colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
 </p>
 
-<p align="center">
-  <strong>Una inteligencia artificial poderosa, moderna y alojada en <a href="https://paymenter.skyultraplus.com">Sky Ultra Plus</a>.</strong><br>
-  Automatiza, responde, juega y mucho más... ¡Con estilo futurista!
-</p>
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-<p align="center">
-  <a href="https://paymenter.skyultraplus.com">
-    <img src="https://cdn.dorratz.com/files/1742239358886.jpg" height="80" alt="Sky Ultra Plus Hosting">
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://paymenter.skyultraplus.com">
-    <img src="https://img.shields.io/badge/💻 Hosting%20en%20SkyUltraPlus-blue?style=for-the-badge" />
-  </a>
-  <a href="https://youtu.be/xH_gQrqw4HI?si=9TUc5o6nJmT8JpVo">
-    <img src="https://img.shields.io/badge/🎬 Ver%20tutorial-red?style=for-the-badge" />
-  </a>
-  <a href="https://chat.whatsapp.com/EB4vMpRUw8R6me7myYF53M">
-    <img src="https://img.shields.io/badge/💬 Comunidad%20Cortana-green?style=for-the-badge" />
-  </a>
-  <a href="https://chat.whatsapp.com/E6iWpvGuJ8zJNPbN3zOr0D">
-    <img src="https://img.shields.io/badge/🌐 Comunidad%20SkyUltraPlus-purple?style=for-the-badge" />
-  </a>
-</p>
+### **`🎩 INFORMACION IMPORTANTE`**
 
----
+![Menu Secundario](https://files.catbox.moe/lq6fa1.jpg)
 
-## 🌟 ¿Qué es Cortana 2.0 Bot?
+> Enlaces Oficiales De SonicBot 
 
-Cortana 2.0 Bot es un **bot inteligente para WhatsApp** basado en la última tecnología de interacción.  
-Con una estética única inspirada en Halo y funciones premium, es la evolución de Azura Ultra, mejorada y más veloz.
+### **`🔗 OBTEN LOS ENLACES`**
 
-> 🚀 **Funciones**:
-- Comandos personalizados
-- Juegos interactivos como Verdad o Reto
-- Generador de Stickers, Menús animados y mucho más
-- Gestión de grupos, sistemas de niveles, economía, plugins...
+<details>
+ <summary><b> 👉 Haz Click Aqui </b></summary>
 
----
+| APP | TIPO | ENLACE |
+|------|-------------|-------|
+| **WhatsApp** | 𝐆𝐫𝐮𝐩𝐨 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 | [¡Click aquí!](https://chat.whatsapp.com/CxOSeutssWuG7AnISdwq8W) |
+| **WhatsApp** | 𝐂𝐨𝐦𝐮𝐧𝐢𝐝𝐚𝐝 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 | [¡Click aquí!](https://chat.whatsapp.com/CxOSeutssWuG7AnISdwq8W) |
 
-## 📦 Alojado en:
+</details>
 
-**🖥 Sky Ultra Plus**  
-Hosting veloz, seguro, y con panel de control intuitivo.  
-Tu bot merecía lo mejor, y aquí está:
+___
 
-👉 **[¡Ir a Sky Ultra Plus!](https://paymenter.skyultraplus.com)**
+### **`🔱 CARACTERÍSTICAS`**
+<details>
+ <summary><b> <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Funciones de Sonic-ProMax (toca)</b></summary>
 
----
+> Bot en desarrollo si presenta alguna falla reportar al creador para darle una solución óptima.
 
-## 🎬 Video tutorial
+- [x] Interacción con voz y texto
+- [x] Configuración de grupo
+- [x] antidelete, antilink, antispam, etc
+- [x] Bienvenida personalizada
+- [x] Juegos, tictactoe, mate, etc
+- [x] Chatbot (simsimi)
+- [x] Chatbot (autoresponder)
+- [x] Crear sticker de image/video/gif/url
+- [x] SubBot (Jadibot)
+- [x]    Buscador Google
+- [x] Juego RPG
+- [ ] Personalizar imagen del menú
+- [x] Descarga de música y video De YT
+- [ ] Otros
 
-Aprende a instalar y configurar Cortana en menos de 10 minutos:  
-📺 **[Ver en YouTube](https://youtu.be/xH_gQrqw4HI?si=9TUc5o6nJmT8JpVo)**
+</details>
 
----
+___
 
-## 👑 Creador y Colaboradores
+### **`👑 INFORMACION CONTACTOS`**
 
-💻 **𝐃𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐚𝐝𝐨𝐫 𝐩𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥:**  
-- 👑 **Russell XZ** — *Creador de Azura Ultra y fundador de Sky Ultra Plus*
+#### **`Owner: Orlando castillo 🤴`**
+> **`Developed By: Crow's Club`**
 
-🤖 **𝐂𝐨𝐥𝐚𝐛𝐨𝐫𝐚𝐝𝐨𝐫𝐞𝐬:**  
-- 🔹 [DIEGO-OFC](https://github.com/DIEGO-OFC)  
-- 🔹 [Eliasar54](https://github.com/Eliasar54)
+#### **`CONTACTOS 💻`**
+<p>
 
-📢 ¡Gracias por apoyar el desarrollo de este poderoso bot!
+<a
+href="https://wa.me/50557865603?text="><img src="https://files.catbox.moe/44q2o7.jpg" height="125px"></a>
 
----
+<details>
+<summary><b> 📞 Toca Aqui</b></summary>
 
-## 💬 Comunidades
+- **Propietario:** [`Aquí`](https:/Wa.me/5212731590195)
 
-Únete a nuestras comunidades y entérate de las actualizaciones, soporte y novedades:
+</details>
 
-- 🤖 [Comunidad Cortana](https://chat.whatsapp.com/EB4vMpRUw8R6me7myYF53M)  
-- ☁️ [Comunidad Sky Ultra Plus](https://chat.whatsapp.com/E6iWpvGuJ8zJNPbN3zOr0D)
+</details>
 
----
+## 🐦‍🔥 **`COLABORADORES`**
+<a href="https://github.com/WillZek"><img src="https://github.com/WillZek.png" width="100" height="100" alt="WillZek"/></a>
 
-<p align="center">
-  <b>✨ Cortana 2.0 Bot — El futuro de los bots de WhatsApp empieza aquí. ✨</b>
-</p>
+## **`💛 𝘊𝘙𝘌𝘈𝘋𝘖𝘙`**
+<a
+href="https://github.com/Emanuel1273"><img src="https://github.com/Emanuel1273.png" width="130" height="130" alt="WillZek"/></a>
+
+</details>
+
+> **[Sonic Bot Channel Official](https://whatsapp.com/channel/0029Vb3oShrICVfiTWhDHM13)**
