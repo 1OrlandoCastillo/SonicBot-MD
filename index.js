@@ -654,7 +654,7 @@ try {
       await sock.sendMessage(chatId, { react: { text: docMode ? '📄' : '🎵', key: msg.key } });
       await sock.sendMessage(chatId, { text: `🎶 Descargando y comprimiendo audio...` }, { quoted: msg });
 
-      const res = await axios.get(`https://api.neoxr.eu/api/youtube?url=${encodeURIComponent(data.videoUrl)}&type=audio&quality=128kbps&apikey=russellxz`);
+      const res = await axios.get(`https://theadonix-api.vercel.app/api/ytmp3?query=${encodeURIComponent(data.videoUrl)}`);
       const download = await axios.get(res.data.data.url, { responseType: 'arraybuffer' });
 
       const input = path.join(tmp, `input-${Date.now()}.m4a`);
