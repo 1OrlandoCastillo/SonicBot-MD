@@ -109,10 +109,10 @@ const handler = async (msg, { conn, text }) => {
 ┗ 🎥 *Video:* _${global.prefix}play6 ${text}_
 
 ⏳ *Espera un momento...*  
-⚙️ *Azura Ultra & Cortana está procesando tu video...*
+⚙️ *SonicBot está procesando tu video...*
 
 ═════════════════════  
-         𖥔 𝗔𝘇𝘂𝗿𝗮 𝗨𝗹𝘁𝗿𝗮 & 𝗖𝗼𝗿𝘁𝗮𝗻𝗮 𝗦𝗨𝗕𝗕𝗼𝘁 𖥔
+         𖥔 SonicBot 𝗦𝗨𝗕𝗕𝗼𝘁 𖥔
 ═════════════════════`;
 
         await conn.sendMessage(msg.key.remoteJid, {
