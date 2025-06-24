@@ -1,15 +1,13 @@
-const axios = require('axios');
+const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
-const ffmpeg = require('fluent-ffmpeg');
-const { pipeline } = require('stream');
-const { promisify } = require('util');
-const streamPipeline = promisify(pipeline);
 
-const handler = async (msg, { conn, text }) => {
+const handler = async (msg, { conn, text, command }) => {
+  // Obtener ID del subbot
   const rawID = conn.user?.id || "";
   const subbotID = rawID.split(":")[0] + "@s.whatsapp.net";
 
+  // Cargar prefijos personalizados
   const prefixPath = path.resolve("prefixes.json");
   let prefixes = {};
   if (fs.existsSync(prefixPath)) {
@@ -19,76 +17,50 @@ const handler = async (msg, { conn, text }) => {
   const usedPrefix = prefixes[subbotID] || ".";
 
   if (!text) {
-    return await conn.sendMessage(msg.key.remoteJid, {
-      text: `✳️ Usa el comando correctamente:\n\n📌 Ejemplo: *${usedPrefix}play* peso pluma bye`
+    return conn.sendMessage(msg.key.remoteJid, {
+      text: `🌴 Pon el nombre o link de un video para buscar.\n\n📌 Ejemplo:\n${usedPrefix + command} Yeri Mua vs Bellakath`
     }, { quoted: msg });
   }
 
-  await conn.sendMessage(msg.key.remoteJid, {
-    react: { text: '🕒', key: msg.key }
-  });
-
   try {
-    const res = await axios.get(`https://theadonix-api.vercel.app/api/ytmp3?query=${encodeURIComponent(text)}`);
-    const data = res.data;
+    await conn.sendMessage(msg.key.remoteJid, {
+      react: { text: '🕒', key: msg.key }
+    });
 
-    if (!data?.audio || !data.title) throw new Error("No se pudo obtener el audio");
+    // Llamar a la API de Adonix
+    const res = await fetch(`https://theadonix-api.vercel.app/api/ytmp3?query=${encodeURIComponent(text)}`);
+    const json = await res.json();
 
-    const { audio, title, duration, views, author, thumbnail, url } = data;
+    if (!json.result || !json.result.audio) {
+      await conn.sendMessage(msg.key.remoteJid, {
+        react: { text: '❌', key: msg.key }
+      });
+      return conn.sendMessage(msg.key.remoteJid, {
+        text: '❌ No se pudo obtener el audio.'
+      }, { quoted: msg });
+    }
 
-    const infoMessage = `
+    const { title, audio, thumbnail, filename, duration, url } = json.result;
 
-   ✦ SonicBot 2.0 𝗦𝘂𝗯𝗯𝗼𝘁 ✦
-
-📀 *Info del audio:*  
-❀ 🎼 *Título:* ${title}
-❀ ⏱️ *Duración:* ${duration}
-❀ 👁️ *Vistas:* ${views}
-❀ 👤 *Autor:* ${author}
-❀ 🔗 *Enlace:* ${url}
-
-📥 *Opciones:*  
-❀ 🎵 _${usedPrefix}play1 ${text}_
-❀ 🎥 _${usedPrefix}play2 ${text}_
-❀ 🎥 _${usedPrefix}play6 ${text}_
-❀ ⚠️ *¿No se reproduce?* Usa _${usedPrefix}ff_
-
-⏳ Procesando audio...
-═══════════════════`;
+    const caption = `*「SonicBot 2.0」*\n\n` +
+      `*❒ Título:* ${title}\n` +
+      `*★ Duración:* ${duration}\n` +
+      `*✧ Link:* ${url}\n\n` +
+      `_Solicitado por @${msg.pushName || 'Usuario'}_\n\n` +
+      `*❀ Servidor: Adonix API 🐦‍🔥*`;
 
     await conn.sendMessage(msg.key.remoteJid, {
       image: { url: thumbnail },
-      caption: infoMessage
+      caption: caption,
+      mentions: [msg.sender]
     }, { quoted: msg });
-
-    const tmpDir = path.join(__dirname, '../tmp');
-    if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir);
-
-    const rawPath = path.join(tmpDir, `${Date.now()}_raw.m4a`);
-    const finalPath = path.join(tmpDir, `${Date.now()}_final.mp3`);
-
-    const audioRes = await axios.get(audio, { responseType: 'stream' });
-    await streamPipeline(audioRes.data, fs.createWriteStream(rawPath));
-
-    await new Promise((resolve, reject) => {
-      ffmpeg(rawPath)
-        .audioCodec('libmp3lame')
-        .audioBitrate('128k')
-        .format('mp3')
-        .save(finalPath)
-        .on('end', resolve)
-        .on('error', reject);
-    });
 
     await conn.sendMessage(msg.key.remoteJid, {
-      audio: fs.readFileSync(finalPath),
+      audio: { url: audio },
       mimetype: 'audio/mpeg',
-      fileName: `${title}.mp3`,
-      ptt: false
+      ptt: true,
+      fileName: filename
     }, { quoted: msg });
-
-    fs.unlinkSync(rawPath);
-    fs.unlinkSync(finalPath);
 
     await conn.sendMessage(msg.key.remoteJid, {
       react: { text: '✅', key: msg.key }
@@ -97,14 +69,13 @@ const handler = async (msg, { conn, text }) => {
   } catch (err) {
     console.error(err);
     await conn.sendMessage(msg.key.remoteJid, {
-      text: `❌ *Error:* ${err.message}`
-    }, { quoted: msg });
-
-    await conn.sendMessage(msg.key.remoteJid, {
       react: { text: '❌', key: msg.key }
     });
+    await conn.sendMessage(msg.key.remoteJid, {
+      text: `❌ Error: ${err.message}`
+    }, { quoted: msg });
   }
 };
 
-handler.command = ['play'];
+handler.command = ['play', 'ytmp3', 'playaudio'];
 module.exports = handler;
